@@ -257,6 +257,10 @@ li{
   color: white;
   height: 10vh;
 }
+.footer_div a{
+  color: blue;
+  
+}
 @media (max-width: 767px) {
   .col-xs-6 {
     flex-basis: 50%;
@@ -264,4 +268,5 @@ li{
   }
   
 }
+
 
