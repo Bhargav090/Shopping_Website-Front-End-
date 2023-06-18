@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+/* First DIV*/
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    font-size: 1.2rem;
+    /* font-weight: 500; */
+}
+li a:hover{
+    transition: color 350ms ease;
+    color: rgb(2, 77, 95);
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-skip-ink: none;
+}
+li{
+    margin: 1% 2.5% 1% 2.5%;
+}
+
+/* second div */
+
+.d-block{
+    height: 86vh;
+    
+}
+.img-light {
+    filter: brightness(90%);
+  }
+  .imgg1{
+    background-position: bottom;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 67vh;
+    width: 100%;
+  }
+  .carousel-item{
+    background-color: white;
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+  }
+  .img12{
+    /* height: 30%;
+    width: 10%; */
+    cursor: pointer;
+  }
+
+  .card-type{
+    margin-top: -10%;
+    margin-left: 9%;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  }
+  @media (max-width: 767px){
+    .card-type{
+      margin-top: -45%;
+    }
+    .type22{
+      margin-top: 5%;
+    }
+    .container{
+      margin-left: -1%;
+    }
+  }
+  @media (min-width: 280px) and (max-width: 350px) {
+    .card-type {
+      margin-top: -115%;
+    }
+    .type22 {
+      margin-top: 15%;
+    }
+    .container {
+      margin-left: -1%;
+    }
+  }
+  
+  /* .jean5{
+    height: 100%;
+    cursor: pointer;
+  } */
+  .ntmll{
+    height: 230px;
+    width: 150px;
+  }
+  .row{
+    padding: 3%;
+    margin-top: -5%;
+    height: 150;
+    width: 250;
+  }
+  .img13{
+    height: 90%;
+    width: 150px;
+    padding-bottom: 1%;
+    padding-top:0.2%;
+    cursor: pointer;
+
+  }
+  .img14{
+    width: 100%;
+    height: 82vh;
+    padding: 4%;
+    cursor: pointer;
+  }
+  .h44{
+    text-align: center;
+  }
+  .container{
+    padding: 0;
+    margin: 0;
+    margin-top: -10%;
+    margin-left: 3%;
+  }
+
+  
+
+  @media (max-width: 576px) {
+    .carousel-item img {
+      height: 200px;
+    }
+
+    .card-type {
+      margin-bottom: 10px;
+    }
+    
+    .card-type .row > div[class^="col-"] {
+      width: 100%;
+    }
+  }
+
+
+/* third div */
+
+.third_div .slider-container {
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.third_div .slide {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+  padding: 1.4%;
+  cursor: pointer;
+}
+
+.third_div .slide img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.third_div .name {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.h33{
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+
+/* fourth_div */
+.fourth_div{
+  height: 100vh;
+  margin-top: 10%;
+}
+.row20{
+  margin-top: 3%;
+}
+#card-container .card-type {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#card-container .card-type img {
+  width: 100%;
+  /* height: auto; */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#card-container .product-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#card-container .rating {
+  margin-bottom: 10px;
+}
+
+#card-container .star {
+  color: gold;
+  font-size: 16px;
+}
+
+#card-container .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#card-container .add-to-cart,
+#card-container .buy-now {
+  padding: 8px 16px;
+  border: none;
+  background-color: #f7640f;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#card-container .add-to-cart:hover,
+#card-container .buy-now:hover {
+  background-color: #e22828;
+}
+.appimg{
+  height: auto;
+}
+.appimg1{
+  height: 31vh;
+}
+@media (min-width: 280px) and (max-width: 350px) {
+  #card-container .card-type {
+    margin-top: 20%;
+  }
+  .footer_div{
+    display: none;
+  }
+}
+
+/* footer */
+.footer_div{
+  background-color: black;
+  margin-top: 20%;
+  margin-bottom: 0;
+  color: white;
+  height: 10vh;
+}
+@media (max-width: 767px) {
+  .col-xs-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  
+}
+
