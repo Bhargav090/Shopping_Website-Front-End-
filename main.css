@@ -75,7 +75,7 @@ li{
       margin-left: -1%;
     }
   }
-  @media (min-width: 280px) and (max-width: 350px) {
+  @media (min-width: 220px) and (max-width: 320px) {
     .card-type {
       margin-top: -115%;
     }
@@ -240,7 +240,7 @@ li{
 .appimg1{
   height: 31vh;
 }
-@media (min-width: 280px) and (max-width: 350px) {
+@media (min-width: 240px) and (max-width: 320px) {
   #card-container .card-type {
     margin-top: 20%;
   }
